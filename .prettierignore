@@ -1,0 +1,25 @@
+# dependencies
+node_modules
+
+# build output
+dist
+build
+.next
+out
+
+# misc
+.DS_Store
+*.log
+coverage
+.turbo
+
+# env files
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
