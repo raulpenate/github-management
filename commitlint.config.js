@@ -1,7 +1,7 @@
-module.export = {
+module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {
-    'types-enum': [
+    'type-enum': [
       2,
       'always',
       [
